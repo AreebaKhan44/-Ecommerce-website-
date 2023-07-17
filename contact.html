@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>about</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+  
+        .header {
+          overflow: hidden;
+          background-color: #e3e6f3;
+        }
+  
+        .header a {
+          float: left;
+          display: block;
+          color: #050505;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+  
+        .header a:hover {
+          background-color: #088178;
+          color: rgb(12, 12, 12);
+        }
+  
+        .header a.active {
+          background-color: #088178;
+          color: black;
+        }
+  
+        .header .icon {
+          display: none;
+        }
+  
+        @media screen and (max-width: 600px) {
+          .header a:not(:first-child) {
+            display: none;
+          }
+          .header a.icon {
+            float: right;
+            display: block;
+          }
+        }
+  
+        @media screen and (max-width: 600px) {
+          .header.responsive {
+            position: relative;
+          }
+          .header.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .header.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+        }
+      </style>
+    </head>
+<body>
+    <section>
+        <div class="header" id="myTopnav">
+          <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+          <a href="home" class="active">Home</a>
+          <a href="shop.html" >Shop</a>
+  
+          <a href="blog.html" >Blog</a>
+          <a href="about.html" >About</a>
+          <a href="contact.html" class="active">Contact</a>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+          </li>
+  
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+  
+        <div style="padding-left: 16px"></div>
+  
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "header") {
+              x.className += " responsive";
+            } else {
+              x.className = "header";
+            }
+          }
+        </script>
+      </section> -->
+      <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div id="navbar-container">
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+          </ul>
+          <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fa fa-outdent"></i>        
+          </div>
+        </div>
+      </section>
+
+    <section id="page-header" class="about-header">
+        <h2>Lets talk</h2>
+        <p>Leave a message, we love to hear from you!</p>
+
+    </section>
+
+    
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+          <span>GET IN TOUCH</span>
+          <h2>Visit one of our agency locations or contact us today</h2>
+          <h3>Head Office</h3>
+          <div>
+              <li>
+                  <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+                  <p>56 Glassfor Street Glasgow G1 1ul Karachi</p>
+              </li>
+              <li>
+                  <i class='fas fa-envelope'></i>
+                  <p>contact@example.com</p>
+              </li>
+              <li>
+                  <i class='fas fa-phone-alt'></i>
+                  <p>contact@example.com</p>
+              </li>
+              <li>
+                  <i class='far fa-clock'></i>
+                  <p>Monday to Saturday 9am to 11pm</p>
+              </li>
+          </div>
+      </div>
+      <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5271.152234761749!2d67.03288209358196!3d24.82422292774822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33db742497f2d%3A0x7cb2d6263f5475e2!2sOcean%20Towers%2C%20Block%209%20Clifton%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075600%2C%20Pakistan!5e0!3m2!1sen!2s!4v1688573211610!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </section>
+
+  <section id="form-details">
+    <form action="">
+      <span>LEAVE A MESSAGE</span>
+      <h2>We love to hear from you</h2>
+      <input type="text" placeholder="yourName">
+      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Subject">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <button class="normal">Submit</button>
+    </form>
+    <div class="people">
+      <div>
+        <img src="img/people/1.png" alt="">
+        <p><span>John Doe</span>Senior Marketing Manager<br>Phone:+000 123 000 77 88<br>Email: contact@example.com</p>
+    </div>
+    <div>
+      <img src="img/people/2.png" alt="">
+      <p><span>JWilliam Smith</span>Senior Marketing Manager<br>Phone:+000 123 000 77 88<br>Email: contact@example.com</p>
+  </div>
+  <div>
+    <img src="img/people/3.png" alt="">
+    <p><span>Emma Stone</span>Senior Marketing Manager<br>Phone:+000 123 000 77 88<br>Email: contact@example.com</p>
+</div>
+  </section>
+
+    
+
+    <section id="newsletter">
+        <div class="section-p1  section-m1">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+
+    </section>
+
+   
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="">
+        <h4>Contact </h4>
+        <p><strong>Address: </strong>562 Wellington Road, Street 32, Saan Francisco</p>
+        <p><strong>Phone: </strong> +01 222 365/ (+91) 01 2345 6789</p>
+        <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <!-- <h4>Follow us</h4> -->
+            <div class=" icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class='fab fa-facebook-f'></i>
+                <i class="fab fa-twitter"></i>
+                <i class='fab fa-instagram' style='font-size:36px'></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-printerest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Term and Conditions</a>
+        <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+            <img src="img/pay/play.jpg" alt="">
+        </div>
+    
+    <p>Secured Payment Gateways</p>
+    <img src="img/pay/pay.png" alt="">
+</div>
+<div class="cpyright">
+    <p>0 2021,-HTML  CSS Ecommerce Template</p>
+
+</div>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

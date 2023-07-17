@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>about</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+  
+        .header {
+          overflow: hidden;
+          background-color: #e3e6f3;
+        }
+  
+        .header a {
+          float: left;
+          display: block;
+          color: #050505;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+  
+        .header a:hover {
+          background-color: #088178;
+          color: rgb(12, 12, 12);
+        }
+  
+        .header a.active {
+          background-color: #088178;
+          color: black;
+        }
+  
+        .header .icon {
+          display: none;
+        }
+  
+        @media screen and (max-width: 600px) {
+          .header a:not(:first-child) {
+            display: none;
+          }
+          .header a.icon {
+            float: right;
+            display: block;
+          }
+        }
+  
+        @media screen and (max-width: 600px) {
+          .header.responsive {
+            position: relative;
+          }
+          .header.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .header.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+        }
+      </style>
+    </head>
+<body>
+    <section>
+        <div class="header" id="myTopnav">
+          <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+          <a href="home" class="active">Home</a>
+          <a href="shop.html" >Shop</a>
+  
+          <a href="blog.html" >Blog</a>
+          <a href="about.html" class="active">About</a>
+          <a href="contact.html">Contact</a>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+          </li>
+  
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+  
+        <div style="padding-left: 16px"></div>
+  
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "header") {
+              x.className += " responsive";
+            } else {
+              x.className = "header";
+            }
+          }
+        </script>
+      </section>
+
+      <!-- <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div id="navbar-container">
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+          </ul>
+          </div>
+          <div id="mobile">         
+           
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+      </section>
+ -->
+
+    <section id="page-header" class="about-header">
+        <h2>know us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur </p>
+
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="img/about/a6.jpg" alt="">
+        <div>
+            <h2>Who We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea ipsam distinctio laboriosam deleniti aspernatur corporis natus, voluptatum minima mollitia, fuga in facilis laudantium delectus impedit nesciunt ut, ratione sunt!
+                <abbr title="">Create stunning images with as much or as little cntrol as you like thanks to a choice of Basic and creative modes</abbr>
+                <br><br>
+                <marquee bgColor="#ccc" loop="-1" scrollamount="5" width="100%">Create stunning images with as much or as little control as you like thanks to a choice of Basic and Creative modes</marquee>
+            </p>
+        </div>
+    </section>
+
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="img/about/1.mp4"></video>
+
+        </div>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>Support</h6>
+        </div>   
+    </section>
+
+    <section id="newsletter">
+        <div class="section-p1  section-m1">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+
+    </section>
+
+   
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="">
+        <h4>Contact </h4>
+        <p><strong>Address: </strong>562 Wellington Road, Street 32, Saan Francisco</p>
+        <p><strong>Phone: </strong> +01 222 365/ (+91) 01 2345 6789</p>
+        <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <!-- <h4>Follow us</h4> -->
+            <div class=" icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class='fab fa-facebook-f'></i>
+                <i class="fab fa-twitter"></i>
+                <i class='fab fa-instagram' style='font-size:36px'></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-printerest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Term and Conditions</a>
+        <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+            <img src="img/pay/play.jpg" alt="">
+        </div>
+    
+    <p>Secured Payment Gateways</p>
+    <img src="img/pay/pay.png" alt="">
+</div>
+<div class="cpyright">
+    <p>0 2021,-HTML  CSS Ecommerce Template</p>
+
+</div>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
